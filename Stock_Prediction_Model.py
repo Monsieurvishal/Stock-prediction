@@ -98,10 +98,4 @@ results = session.run(y, feed_dict={x: test_volumes})
 accuracy = calculate_accuracy(test_price_differences, results)
 print("Accuracy of model: {0:.2f}%".format(accuracy))
 
-# # Plotting purposes only, not necessary
-# plt.figure(1)
-# plt.plot(train_volumes, train_price_differences, 'bo')
-# plt.title('Price Differences for Given Volumes for the Past Year')
-# plt.xlabel('Volumes')
-# plt.ylabel('Price differences')
-# plt.show()
+
