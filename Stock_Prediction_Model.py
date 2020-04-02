@@ -1,17 +1,11 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import tensorflow as tf
 
-# List of all csv filenames
-GAS_TRAIN_DATA = 'Gas Data Last Year.csv'
-GAS_TEST_DATA = 'Gas Data Last Month.csv'
+# List of csv filenames
+
 GOLD_TRAIN_DATA = 'Gold Data Last Year.csv'
 GOLD_TEST_DATA = 'Gold Data Last Month.csv'
-OIL_TRAIN_DATA = 'Oil Data Last Year.csv'
-OIL_TEST_DATA = 'Oil Data Last Month.csv'
-SILVER_TRAIN_DATA = 'Silver Data Last Year.csv'
-SILVER_TEST_DATA = 'Silver Data Last Month.csv'
 
 # Data sets for stock we are currently assessing
 current_train_data = GOLD_TRAIN_DATA
