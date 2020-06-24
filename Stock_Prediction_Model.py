@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import tensorflow as tf
+import tensorflow.compat.v1 as tf #To make it compatible to run with tensorflow 2X
+tf.disable_v2_behavior() 
 
 # List of csv filenames
 
